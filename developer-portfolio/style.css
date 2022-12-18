@@ -1,4 +1,61 @@
-body{
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top-banner {
+    width: 100%;
+    display: flex;
+    background: url(./images/top-banner.png) top left no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    background-image: -moz-linear-gradient(to right, orange, tomato);
+    background-image: -o-linear-gradient(to right, orange, tomato);
+    background-image: -webkit-linear-gradient(to right, orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -67,4 +124,4 @@ h2{
 }
 footer p{
     text-align: center;
-}
+} */
