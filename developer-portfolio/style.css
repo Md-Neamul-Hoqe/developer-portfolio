@@ -44,13 +44,23 @@ h1 span {
 }
 
 .flexible-area{
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
+    flex: content;
+    justify-content: space-around;
 }
 #full-stack, #baby-web{
-    z-index: -100;
+    /* z-index: -100; */
     width: 40%;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 10px 10px 30px gray;
+}
+#full-stack{
+    border-left: 10px solid tomato;
+}
+#baby-web{
+    border-left: 10px solid blue;
 }
 .half-width {
     width: 50%;
@@ -75,7 +85,9 @@ h1 span {
 
 
 
-
+footer{
+    text-align: center;
+}
 
 
 
