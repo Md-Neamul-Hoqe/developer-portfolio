@@ -29,7 +29,7 @@ h1 span {
 
 #dream-area {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
     padding-right: 200px;
     display: flex;
     background: url(./images/dream-bg.png) bottom right no-repeat;
@@ -87,6 +87,7 @@ h1 span {
 
 footer{
     text-align: center;
+    margin-top: 150px;
 }
 
 
