@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -7,18 +8,29 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
-    font-size: 40px;
-}
-
 h1 span {
     color: orange;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
 #top-banner,
 #dream-area,
-#experience-area {
+#experience-area{
     width: 100%;
+    /* width: 1200px; */
+}
+
+#top-banner img,
+#dream-area img,
+#experience-area img {
+    padding: 0 50px;
 }
 
 #top-banner {
@@ -27,41 +39,54 @@ h1 span {
     background: url(./images/top-banner.png) top left no-repeat;
 }
 
-#dream-area {
-    width: 100%;
+#dream-area,
+#experience-area {
     margin-top: 150px;
-    padding-right: 200px;
+    margin-bottom: 150px;
+}
+
+#dream-area {
     display: flex;
-    background: url(./images/dream-bg.png) bottom right no-repeat;
+    background: url(./images/dream-bg.png) right no-repeat;
+}
+
+#dream-area .half-width:nth-child(2) {
+    padding-right: 100px;
 }
 
 #experience-area {
     background-image: url(./images/exp-bg.png) left top no-repeat;
     width: 100%;
 }
-#experience-area h3{
+
+#experience-area h3 {
     color: orange;
 }
 
-.flexible-area{
+.flexible-area {
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
     flex: content;
     justify-content: space-around;
 }
-#full-stack, #baby-web{
+
+#full-stack,
+#baby-web {
     /* z-index: -100; */
     width: 40%;
     /* border-radius: 5px; */
     box-shadow: 10px 10px 30px gray;
 }
-#full-stack{
+
+#full-stack {
     border-left: 10px solid tomato;
 }
-#baby-web{
+
+#baby-web {
     border-left: 10px solid blue;
 }
+
 .half-width {
     width: 50%;
     padding-left: 5%;
@@ -85,7 +110,7 @@ h1 span {
 
 
 
-footer{
+footer {
     text-align: center;
     margin-top: 150px;
 }
